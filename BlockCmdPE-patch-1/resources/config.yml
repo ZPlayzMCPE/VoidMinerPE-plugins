@@ -1,0 +1,10 @@
+
+# The levels where players are not allowed to execute the commands
+active.levels: ["world", "plot"]
+# Message that will send if player execute blocked cmd
+block.message: '{RED}That action was blocked'
+# Commands that will blocked
+block.cmd:
+  - '/me is the owner'
+  - '/me f*ck you steve'
+  - '/kill steve'

@@ -1,0 +1,21 @@
+name: ClearLaggPE
+main: ClearLagg\Loader
+version: 2.0.0
+api:
+- 3.0.0-ALPHA9
+- 3.0.0-ALPHA8
+author: VMPE Development Team
+website: Not showing due to self leak information.
+description: "Port of MCPC's ClearLagg plugin, now in MCPE."
+permissions:
+  clearlagg:
+    default: false
+    description: "Allows access to all ClearLaggPE features."
+    children:
+      clearlagg.command:
+        default: false
+        description: "Allows access to all ClearLaggPE commands."
+        children:  
+          clearlagg.command.clearlagg:
+            default: op
+            description: "Allows access to the clearlaggPE command."
