@@ -1,0 +1,10 @@
+name: EconomyTax
+main: onebone\economytax\EconomyTax
+author: onebone
+version: "2.0.3-2"
+api: [3.0.0-ALPHA7, 3.0.0-ALPHA8, 3.0.0-ALPHA9]
+depend: [EconomyAPI]
+permissions:
+ economytax.tax.avoid:
+  description: The permission that allows player to avoid paying tax
+  deafault: op
