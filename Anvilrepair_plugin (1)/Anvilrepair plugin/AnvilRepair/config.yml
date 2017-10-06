@@ -1,0 +1,8 @@
+# Valor para reparar o item!
+reparar-money-cost: 50
+
+# Mensagens
+msg-tap: "§bEşya Tamir edilmeye Basladı §7TL"
+msg-sem-money: "§cYeterince Paran Yok §7TL"
+msg-item-nao-permitido: "§cBu İtem Tamir Edilmez!"
+msg-sucesso: "§aItem Tamir Edildi!"

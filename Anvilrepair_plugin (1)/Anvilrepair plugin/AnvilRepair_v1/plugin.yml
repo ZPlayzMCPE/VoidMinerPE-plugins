@@ -1,0 +1,5 @@
+name: AnvilRepair
+author: VitorG89
+main: AnvilRepair\Main
+api: 2.0.0
+version: 1.0
