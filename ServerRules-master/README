@@ -1,0 +1,29 @@
+   _____                          _____       _           
+  / ____|                        |  __ \     | |          
+ | (___   ___ _ ____   _____ _ __| |__) |   _| | ___  ___ 
+  \___ \ / _ \ '__\ \ / / _ \ '__|  _  / | | | |/ _ \/ __|
+  ____) |  __/ |   \ V /  __/ |  | | \ \ |_| | |  __/\__ \
+ |_____/ \___|_|    \_/ \___|_|  |_|  \_\__,_|_|\___||___/
+                                                                                                                    
+______ ______ ______ ______ ______ ______ ______ ______ ______
+
+ServerRules is a PocketMine-MP plugin that allows you to change that traditional and insecure way of listing your server rules. From now on, no matter what happens, rules will remain in /rules even if your rule board gets griefed. You can list as many rules as you want by copying and pasting the format of the first three lines of rules in the config.yml.
+
+Features:
+- Save your server rules in a single command: /rules.
+- List as many rules as you want in the config.yml.
+
+Installation:
+To install this plugin on your server, be sure to follow these steps:
+
+[!] Since the releases zone does not guarantee the up-to-date plugin updates, and many of them may not be compatible with your server software due to the API version, use the download method for developers.
+
+1. Download the repository (using the Download button or cloning it with git clone).
+2. Visit pmt.mcpe.fun, on the upper left side open the menu and tap on "Create phar".
+3. Tap the clip icon next to "No zip file choosen..." and upload the previously downloaded ZIP file.
+4. Tap the "Create phar" button.
+5. After the PHAR file has been created, it should automatically download on your browser.
+6. Upload the PHAR to the plugins/ folder on your server.
+7. Restart the server. You're ready!
+
+Be sure to make monthly updates of the plugin by removing the PHAR file of the plugins/ folder and repeating the previous steps to stay up to date with the new features and bug fixes.

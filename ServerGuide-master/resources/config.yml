@@ -1,0 +1,18 @@
+---
+# Prefix / first line of the guide
+prefix: "§a§l[!]§r§9-------§b§lServerHelp§r§9-------§l§a[!]§r§r"
+
+# Help item settings
+guide.item: "403:0"
+guide.item.name: "§l§bHelp Book§r\n§7Tap anywhere\nto get help!§r"
+
+# Help lists
+guide.list:
+- "- Example help or guide"
+- "- Follow me on Twitter @TheAz928"
+- "- Any ideas about this plugin?"
+- "- Feel free to post them or give them xD!"
+- "- Is there a server?"
+- "- Oh I forgot, Join RivalCraftPE.ddns.net:19133"
+- "- Online: {online}/{max_online}"
+...
