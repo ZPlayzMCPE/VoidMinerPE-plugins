@@ -1,0 +1,17 @@
+name: RestartMe
+main: restartme\RestartMe
+version: 1.5.0
+api: [3.0.0-ALPHA6, 3.0.1]
+load: STARTUP
+author: Zeao
+description: Make sure your server stays up all the time!
+website: https://github.com/Viperize/RestartMe-PocketMine
+permissions:
+ restartme:
+  default: op
+  children:
+   restartme.command:
+    default: op
+    children:
+     restartme.command.restartme:
+      default: op
