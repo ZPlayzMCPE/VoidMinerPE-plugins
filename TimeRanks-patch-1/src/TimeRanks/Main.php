@@ -103,7 +103,7 @@ class Main extends PluginBase{
     }
 
     public function onCommand(CommandSender $sender, Command $command, string $label, array $args) : bool{
-        if(strtolower($command->getName()) === "timeranks"){
+        if(strtolower($command->getName()) === "ranks"){
             $this->command->run($sender, $args);
             return true;
         }
