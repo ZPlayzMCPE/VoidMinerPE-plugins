@@ -1,17 +1,16 @@
 name: TimeRanks
 main: TimeRanks\Main
-version: 3.0.0-ALPHA8
-api: [3.0.0-ALPHA8]
+version: 4.0.0-B1
+api: [3.0.0-ALPHA9, 3.0.0-ALPHA10]
 
 load: POSTWORLD
-author: Zeao.
+author: Zeao
 description: Add easy ranks to your server
 website: https://github.com/luca28pet/TimeRanks
 commands:
  timeranks:
   description: The main command
-  usage: "/timeranks check [player]"
-  aliases: [tr, ranks, tranks]
+  usage: "/ranks"
   permission: timeranks.command
 permissions:
  timeranks.command:
