@@ -22,7 +22,7 @@ class BlockCmdListener implements Listener{
         if(!in_array($p->getLevel()->getName(), $this->plugin->getAllLevels())){
             return;
         }
-        if($p->hasPermission('block.cmd.pe.bypass')){
+        if($p->hasPermission('blockpe.cmd.bypass')){
             return;
         }
         foreach($this->plugin->getCmd() as $cmd){
