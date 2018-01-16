@@ -3,5 +3,5 @@ branches:
 - master
 projects:
   BlockCmdPE:
-    path: BlockCmdPE/
+    path: BlockCmdPE-patch-1/
 ...
